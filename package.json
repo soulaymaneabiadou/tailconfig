@@ -1,10 +1,9 @@
 {
-  "name": "tailconfig",
+  "name": "@soulaymaneabiadou/tailconfig",
   "description": "Copy the tailwind config to any project",
   "version": "0.0.1",
   "author": "Soulaymane Abiadou @soulaymaneabiadou",
   "bin": {
-    "@soulaymane/tailconfig": "./bin/run",
     "tailconfig": "./bin/run"
   },
   "bugs": "https://github.com/soulaymaneabiadou/tailconfig/issues",
@@ -39,7 +38,9 @@
   "oclif": {
     "bin": "tailconfig"
   },
-  "repository": "soulaymaneabiadou/tailconfig",
+  "repository": {
+    "url": "git://github.com/soulaymaneabiadou/tailconfig.git"
+  },
   "scripts": {
     "prepack": "rimraf lib && tsc -b && oclif-dev readme",
     "test": "echo NO TESTS",
