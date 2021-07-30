@@ -1,5 +1,4 @@
-tailconfig
-==========
+# tailconfig
 
 Copy the tailwind config to any project
 
@@ -9,24 +8,35 @@ Copy the tailwind config to any project
 [![License](https://img.shields.io/npm/l/tailconfig.svg)](https://github.com/soulaymaneabiadou/tailconfig/blob/master/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [tailconfig](#tailconfig)
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
-```sh-session
+
+```sh
 $ npm install -g tailconfig
-$ tailconfig COMMAND
+
+$ tailconfig
 running command...
+
 $ tailconfig (-v|--version|version)
 tailconfig/0.0.1 win32-x64 node-v14.17.1
-$ tailconfig --help [COMMAND]
+
+$ tailconfig --help
 USAGE
-  $ tailconfig COMMAND
+  $ tailconfig
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
 
 <!-- commandsstop -->

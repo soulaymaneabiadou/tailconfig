@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "author": "Soulaymane Abiadou @soulaymaneabiadou",
   "bin": {
+    "@soulaymane/tailconfig": "./bin/run",
     "tailconfig": "./bin/run"
   },
   "bugs": "https://github.com/soulaymaneabiadou/tailconfig/issues",
