@@ -23,13 +23,13 @@ class Tailconfig extends Command {
       confirm = await cli.confirm("Exists, overwrite ");
     }
 
+    if (fileExists() && !confirm) {
+      this.log("Canceled");
+    }
+
     if (!fileExists() || confirm) {
       copyConfigFile();
       this.log("File has been copied");
-    }
-
-    if (fileExists() && !confirm) {
-      this.log("Canceled");
     }
   }
 }
